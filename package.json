@@ -1,0 +1,22 @@
+{
+  "name": "animelab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "animeserver.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.2",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2"
+  }
+}
