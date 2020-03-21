@@ -2,7 +2,7 @@
   "name": "animelab",
   "version": "1.0.0",
   "description": "",
-  "main": "animeserver.js",
+  "main": "app.js",
   "scripts": {
     "dev": "nodemon server",
     "start": "NODE_ENV=production node server.js"
@@ -17,6 +17,7 @@
     "dotenv": "^8.2.0",
     "mongoose": "^5.9.2",
     "morgan": "^1.9.1",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "pexels-api-wrapper": "^1.1.1"
   }
 }

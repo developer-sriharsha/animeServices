@@ -8,7 +8,7 @@ const connectAnimeDB= require('./config/animeDB')
 dotenv.config({path:"./config/config.env"})
 
 //connect to mongodb database
-connectAnimeDB()
+// connectAnimeDB()
 
 //import route files
 const animeRoutes= require('./routes/animeRoutes')
@@ -21,6 +21,6 @@ if (process.env.NODE_ENV==='development') {
     app.use(morgan('dev'))
 }
 app.use(express.json())
-app.use('/coreconstants',animeRoutes)
+app.use('/',animeRoutes)
 app.listen(PORT,console.log(`server running on port ${PORT}`.yellow.bold))
 
