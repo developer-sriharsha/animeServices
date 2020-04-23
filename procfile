@@ -1,5 +1,5 @@
 # create '/Procfile'
-web: node animeserver.js
+web: node app.js
 
 # test start
 $ foreman start
