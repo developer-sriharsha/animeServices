@@ -8,7 +8,7 @@ var pexelsClient = new PexelsAPI("563492ad6f917000010000013a7b7156d16b40fab37af5
 exports.getAnime= async (req,res,next)=>{
     try {
         let resuts
-        pexelsClient.getPopularPhotos(10, 1)
+        pexelsClient.getPopularPhotos(10, 2)
         .then(function(result){
             console.log(result);
             res.status(201).json({success:true,data: result})
