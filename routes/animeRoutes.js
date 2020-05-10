@@ -3,8 +3,8 @@ const express =require('express');
 const router = express.Router();
 
 //get the controller methods
-const {getAnime,postAnime}=require('../controllers/animeControllers')
+const {getAnime,countryStateCity}=require('../controllers/animeControllers')
 router.route('/').get(getAnime)
-router.route('/').post(postAnime)
+router.route('/countryStateCity').get(countryStateCity)
 
 module.exports=router
