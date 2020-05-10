@@ -8,7 +8,7 @@ const connectAnimeDB= require('./config/animeDB')
 dotenv.config({path:"./config/config.env"})
 
 //connect to mongodb database
-// connectAnimeDB()
+connectAnimeDB()
 
 //import route files
 const animeRoutes= require('./routes/animeRoutes')
