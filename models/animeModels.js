@@ -40,4 +40,4 @@ const  animeSchema=new mongoose.Schema({
     
 })
 
-module.exports=mongoose.model("coreconstants",animeSchema) 
+module.exports=mongoose.model("coreconstants",animeSchema,"countryStateCity") 
